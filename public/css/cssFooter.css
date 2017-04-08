@@ -1,0 +1,19 @@
+
+footer{
+	background-color: yellow;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	position: relative;	
+	
+}
+
+#pie{
+	text-align: center;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	height: 30px;
+	width: 80px;
+}

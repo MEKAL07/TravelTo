@@ -1,0 +1,56 @@
+
+header{
+	background-color: green;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+#navegador{
+	background-color: transparent;
+}
+
+
+#navegador ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+#navegador ul li{
+	display: inline-table;
+	text-align: center;
+	position: relative;
+	transition: background-color 0.7s;
+	border-radius: 25px;
+}
+
+#navegador ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    vertical-align: middle;
+    display: block;
+    padding: 15px;
+    
+}
+
+#navegador ul li:hover{
+    background-color: #037E8C;
+}
+#navegador ul li:hover > ul   {
+    display: inline-block;
+    background-color:#024959;
+}
+#navegador ul li ul > li:hover >a  {
+    background-color:#EA4335;
+
+}
+#navegador ul li ul   {
+    display: none;
+    left: 0;
+    position: absolute;
+    top:100%;
+    color: #000;
+}

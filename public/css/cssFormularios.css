@@ -1,0 +1,49 @@
+
+.formuRegistro{
+	background-color: blue;	
+	width: 100%;
+	text-align: center;
+}
+
+.cabecera{
+	background-color: red;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.izquierda{
+	background-color: yellow;
+	height: 100%;
+	width: 500px;
+	text-align: left;
+	display: inline-block;
+}
+
+.derecha{
+	padding-left:  20px;
+	background-color: green;
+	height: 100%;
+	width: 500px;
+	text-align: left;
+	display: inline-block;
+}
+
+#frmRegister{
+	padding: 10px;
+	background-color: #efefef;
+}
+
+.txt{
+	height: 25px;
+	width: 300px;
+	border-radius: 2px;
+}
+
+.btnR{
+	background-color: #799c78;
+	height: 40px;
+	width: 150px;
+	border-radius: 9px;
+
+}
