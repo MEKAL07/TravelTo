@@ -1,0 +1,126 @@
+
+p{
+	text-align: center;
+}
+.divVerLista{
+	background-color: #efefef;
+	height: auto;
+	display: inline-block;	
+	text-align: left;
+}
+
+.divBotonAgregar{
+	background-color: green;
+	width: 200px;
+	padding-top: 7px;
+	padding-left: 10px;
+	
+}
+
+/*.divBusqueda1{
+	background-color: yellow;
+	width: 450px;
+	padding: 10px;
+	display: inline-block;
+}*/
+
+
+#divBotones{
+	background-color: red;
+	width: 100%;
+}
+
+.divBusqueda{
+	background-color: yellow;
+	height: 40px;
+	width: 450px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: left;
+	display: inline-block;
+}
+
+.divBotonExport{
+	background-color: blue;
+	height: 40px;
+	width: 350px;
+	float: right;
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+	display: inline-block;
+}
+
+.divTable{
+	background-color: blue;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	
+}
+
+
+.btnA{
+	background-color: transparent;
+	height: 40px;
+	width: 150px;
+	border-radius: 9px;
+}
+
+.btnA:hover{
+	background-color: #799c78;
+}
+
+.txtBusqueda{
+	height: 30px;
+	width: 400px;
+	border-radius: 9px;	
+	font: 20px Comic Sans MS ;
+}
+
+
+.btnEP{
+	background-color: transparent;
+	height: 40px;
+	width: 150px;
+	border-radius: 9px;
+}
+
+.btnEP:hover{
+	background-color: #799c78;
+}
+
+.btnEE{
+	background-color: transparent;
+	height: 40px;
+	width: 150px;
+	border-radius: 9px;
+}
+
+.btnEE:hover{
+	background-color: #799c78;
+}
+
+.btnE{
+	background-color: transparent;
+	height: 40px;
+	width: 150px;
+	border-radius: 9px;
+}
+
+.btnE:hover{
+	background-color: #799c78;
+}
+
+
+.btnD{
+	background-color: transparent;
+	height: 40px;
+	width: 150px;
+	border-radius: 9px;
+}
+
+.btnD:hover{
+	background-color: red;
+}

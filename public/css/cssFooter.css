@@ -1,19 +1,21 @@
 
 footer{
-	background-color: yellow;
-	height: 50px;
-	width: 100%;
-	text-align: center;
-	position: relative;	
-	
+	height: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #024959;
+    text-align: center;
+		
 }
 
 #pie{
-	text-align: center;
+	background-color: green;
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
-	position: relative;
-	height: 30px;
-	width: 80px;
+	position: none;
+	height: auto;
+	width: 150px;
 }

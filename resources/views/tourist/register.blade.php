@@ -1,15 +1,15 @@
 @extends('layout.template')
 @section('CuerpoPrincipal')
-
-<div class="formuRegistro">
-	<div class="cabecera">
+<hr>
+<div class="divFormuRegistro">
+	<div id="divCabeceraRegistro">
 		<p>CREA TU CUENTA EN TravelTo</p>
 	</div>	
-	<div class="izquierda">
+	<div class="divIzquierda">
 		<p>Te informamos a detalle del lugar que quieres visitar</p>
 		<img src="../img/catdog.jpg" width="100%" height="100%">
 	</div>
-	<div class="derecha">
+	<div class="divDerecha">
 		<form id="frmRegister" action="{{url('tourist/register')}}" method="post" enctype="multipart/form-data">
 			<label for="txtNombre">Nombre/Name : </label><br>
 			<input type="text" name="txtNombre" id="txtNombre" class="txt"><br><br>
