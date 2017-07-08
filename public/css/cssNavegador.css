@@ -10,6 +10,7 @@ header{
 
 #navegador{
 	background-color: transparent;
+	display: inline-block;
 }
 
 
@@ -17,14 +18,14 @@ header{
 	list-style: none;
 	padding: 0;
 	margin: 0;
-
+	width: auto;
 }
 #navegador ul li{
 	display: inline-table;
 	text-align: center;
 	position: relative;
-	transition: background-color 0.7s;
-	border-radius: 25px;
+	transition: background-color 0.1s;
+	border-radius: 5px;
 }
 
 #navegador ul li a{
@@ -53,4 +54,18 @@ header{
     position: absolute;
     top:100%;
     color: #000;
+}
+
+#navRight{
+	color: black;
+	float: right;
+	padding-right: 10px;
+	padding: 10px;
+	display: inline-block;
+}
+
+#navRight > a{
+	color: black;
+	vertical-align: middle;
+	display: table-cell;
 }

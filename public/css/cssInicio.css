@@ -1,0 +1,134 @@
+	
+.InicioTravelTO{
+	background-image: url('../img/f9.jpg');	
+	height: 95%;	
+	top: 0px;
+	position: static;
+}
+
+.divInicioSesion{
+	height: 100px;
+	width: 100%;
+	display: inline-block;	
+	position: fixed;
+}
+
+.divTravelTO{
+	color: green;
+	height: auto;
+	width: 40%;
+	padding: 40px;
+	text-align: center;
+	display: inline-block;
+	font-size: 50px;
+}
+
+.divBotonSesion{
+	height: auto;
+	width: 20%;
+	padding: 30px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+}
+
+.btnInicio{
+
+	background-color: green;
+	color: white;
+	height: 45px;
+	width: 200px;
+	border-radius: 7px;
+
+}
+
+.btnInicio:hover{
+	background-color: white;
+	color: black;
+	height: 50px;
+	width: 210px;
+}
+
+.divFrase{
+	background-color: transparent;
+	color: white;
+	margin-top:  300px;
+	padding-left: 50px;
+	display: inline-block;
+	font-size: 35px;
+}
+
+.divDispositivos {
+	background-color: #efefef;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+}
+
+.divPc{
+	background-color: #efefef;
+	display: inline-block;
+	width: 15%;
+}
+
+.divLap{
+	background-color: #efefef;
+	display: inline-block;
+	width: 15%;
+}
+
+.divTablet{
+	background-color: #efefef;
+	display: inline-block;
+	width: 15%;
+}
+
+.divCelular{
+	background-color: #efefef;
+	display: inline-block;
+	width: 15%;
+}
+
+.divSuscripciones{
+	background-color: green;
+	display: inline-block;
+	width: 100%;
+}
+
+#divBotonSuscribir{
+	background-color: yellow;
+	float: left;
+	padding: 40px;
+	height: auto;
+	width:  350px;	
+	vertical-align: center;
+	display: inline-block;
+
+}
+
+.btnSuscribirse{
+	
+	margin-left:  20px;
+	height: 45px;
+	width: 200px;
+	border-radius: 7px;
+}
+
+.btnSuscribirse:hover{
+	background-color: green;
+	color: white;
+	margin-left:  20px;
+	height: 50px;
+	width: 210px;
+	border-radius: 15px;
+
+}
+#divPoliticas{
+	background-color: #efefef;
+	height: 100px;
+	width: 700px;
+	padding-left:  10px;
+	text-align: left;
+	display: inline-block;
+	font-size: 12px;
+}

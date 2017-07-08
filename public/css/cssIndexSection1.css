@@ -1,0 +1,130 @@
+
+body{
+	background-image: url('../img/personitas.jpg');
+	////
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	///
+	font-size: 20px;
+	line-height: 20px;	
+	margin: 0;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 4px;
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  body {
+
+    background-image: url('../img/personitas.jpg');
+    display: flex;
+  }
+
+}
+
+
+.cuerpoSection1{
+	padding-top: 50px;
+	display: block;
+	/*text-align: center;*/
+	width: 100%;
+	/*overflow: hidden;
+	position: relative;*/
+	/*display: flex;*/
+}
+
+
+
+.divBuscar{
+	position: fixed;
+	background-color: transparent;
+	margin-left: 20px;
+	height: 40px;
+	width: 100%;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+.divTransicion{
+	background-color: yellow;
+	height: 100%;
+	
+	text-align: left;
+	/*display: inline-block;*/
+}
+
+.divSesion{
+	background-color: #efefef;
+	height: 100%;
+	width: 320px;
+	padding-left: 10px;
+	text-align: left;
+	/*display: inline-block;*/
+}
+
+
+#txtBuscar{
+	height: 30px;
+	width: 400px;
+	border-radius: 9px;
+	font-family: cursive;
+	font: 25px;
+}
+
+#btnBuscar{
+	background-color: transparent;
+	height: 40px;
+	width: 150px;
+	border-radius: 9px;
+}
+#btnBuscar:hover{
+	background-color: #799c78;
+}
+
+#divFotos{
+	text-align: center;
+}
+.fotos{
+	background-color: red;
+	height: 250px;
+	width: 21%;
+	text-align: left;
+	display: inline-block;
+	transition: width 1s ease;
+}
+
+.fotos:hover{
+	background-color: green;
+	height: 255px;
+	width: 22%;
+	text-align: left;
+	display: inline-block;
+}
+
+.divTransicion1{
+	
+	height: auto;
+	padding: 10px;
+
+}
+.textComentario{
+	border-radius: 5px;
+}
+
+#btnCOmentario{
+	background-color: transparent;
+	height: 40px;
+	width: 150px;
+	border-radius: 9px;
+	padding-top: 20px;
+	/*margin-left:   10px;*/
+}
+#btnCOmentario:hover{
+	background-color: #799c78;
+}

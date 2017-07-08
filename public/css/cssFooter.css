@@ -5,7 +5,7 @@ footer{
     left: 0;
     right: 0;
     position: fixed;
-    background-color: #024959;
+    background-color: green;
     text-align: center;
 		
 }
@@ -16,6 +16,22 @@ footer{
 	text-align: center;
 	vertical-align: middle;
 	position: none;
-	height: auto;
+	height: 100%;
 	width: 150px;
+	list-style: none;
+
+}
+#pie a{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    display: block;
+    padding: 10px;
+    
+}
+
+#pie:hover{
+	background-color: #037E8C;
+
+	
 }
